@@ -13,6 +13,7 @@
   line-height: 3.2;
   padding-top: 10px;
   padding-bottom: 20px;
+  margin-bottom: -20px;
 }
 
 .r-layout__header h4 {
@@ -88,10 +89,6 @@ img {
   /* border-bottom: 3px solid #231e1e63; */
 }
 
-.modal-content, .card-reveal p {
-  line-height: 1.7;
-}
-
 .card-title {
   font-weight: 700 !important;
 }
@@ -125,4 +122,29 @@ img {
   float: right;
   margin-top: 10px;
   cursor: pointer;
+}
+
+.bottom-line {
+  border-bottom: 3px solid #9e8e8e5c;
+  margin-top: -10px;
+}
+
+.header-pic p {
+  text-align: right;
+  margin-top: 1.14rem;
+}
+
+.header-pic img {
+  max-height: 200px;
+  height: 100%;
+  border-radius: 15px;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.header-pic img:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }

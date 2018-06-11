@@ -11,6 +11,7 @@ class Intro extends Component {
                     <div id="about" className="section-header section scrollspy">
                         <a href="#about" >關於我</a>
                     </div>
+                    <div className="bottom-line"></div>
                     <Card
                         className=''
                         actions={[<Modal
@@ -18,7 +19,7 @@ class Intro extends Component {
                             header='自傳'
                             fixedFooter
                             trigger={<Button>點我(自傳)</Button>}>
-                            {this.props.autobiography}
+                            <p>{this.props.autobiography}</p>
                         </Modal>]}
                         title=''>
                         {this.props.selfIntro}
@@ -26,8 +27,9 @@ class Intro extends Component {
                 </Row>
                 <Row>
                     <div id="experice" className="section-header section scrollspy">
-                        <a href="#experic">經歷與背景</a>
+                        <a href="#experice">經歷與背景</a>
                     </div>
+                    <div className="bottom-line"></div>
                     <CardPanel className="black-text">
                         <span>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.</span>
                     </CardPanel>
@@ -39,6 +41,7 @@ class Intro extends Component {
                             <i className="material-icons">format_line_spacing</i>
                         </span>
                     </div>
+                    <div className="bottom-line"></div>
                     <Collapsible popout>
                         <CollapsibleItem header='Web知識' icon='filter_drama' className="active">
                             HTML5

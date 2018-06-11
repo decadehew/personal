@@ -24,15 +24,25 @@ class App extends Component {
 			<div className="app">
 				<header className="r-layout__header">
 					<div className="container">
-						<h4>DecadeHew</h4>
-						<p>前端工程師</p>
-						<p className="email">Email: <a href="mailto:yong_323@hotmail.com">yong_323@hotmail.com</a></p>
-						<p className="social-icon">
-							<a href="https://www.dropbox.com/s/uqv9z1w1go3mo6s/resume.pdf?dl=0" target="_blank" className="tooltipped" data-position="bottom" data-delay="50" data-tooltip="履歷表"><i className="fas fa-portrait fa-2x"></i></a>
-							<a href="https://github.com/decadehew" target="_blank" className="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Github"><i className="fab fa-github fa-2x"></i></a>
-							<a href="https://www.facebook.com/amy262833" target="_blank" className="tooltipped" data-position="bottom" data-delay="50" data-tooltip="FB"><i className="fab fa-facebook-square fa-2x"></i></a>
-							<a href="https://twitter.com/decadehew" target="_blank" className="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Twitter"><i className="fab fa-twitter fa-2x"></i></a>
-						</p>
+						<div className="row">
+							<div className="col s6">
+								<h4>DecadeHew</h4>
+								<p>前端工程師</p>
+								<p className="email">Email: <a href="mailto:yong_323@hotmail.com">yong_323@hotmail.com</a></p>
+								<p className="social-icon">
+									<a href="https://www.dropbox.com/s/uqv9z1w1go3mo6s/resume.pdf?dl=0" target="_blank" className="tooltipped" data-position="bottom" data-delay="50" data-tooltip="履歷表"><i className="fas fa-portrait fa-2x"></i></a>
+									<a href="https://github.com/decadehew" target="_blank" className="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Github"><i className="fab fa-github fa-2x"></i></a>
+									<a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank" className="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Linkedin"><i className="fab fa-linkedin-in fa-2x"></i></a>
+									<a href="https://www.facebook.com/amy262833" target="_blank" className="tooltipped" data-position="bottom" data-delay="50" data-tooltip="FB"><i className="fab fa-facebook-square fa-2x"></i></a>
+									<a href="https://twitter.com/decadehew" target="_blank" className="tooltipped" data-position="bottom" data-delay="50" data-tooltip="Twitter"><i className="fab fa-twitter fa-2x"></i></a>
+								</p>
+							</div>
+							<div className="col s6 header-pic">
+								<p>
+									<img src="../images/me.jpg" />
+								</p>
+							</div>
+						</div>
 					</div>
 				</header>
 				<main>
